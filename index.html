@@ -277,5 +277,35 @@
         </div>
         
     </div>
+
+
+    <div class="divider"><h1>Snackbar</h1></div>
+    <div class="__snackbar">
+        <button class="__badge-btn" onclick="BadgeBase();">Baseline</button>
+        <button class="__badge-btn" onclick="BadgeLeading();">Leading</button>
+        <button class="__badge-btn" onclick="BadgeStacked()">Stacked</button>
+        <div class="__snackbar_baseline">
+            <h2>Hello!! have a nice day</h2>
+            <div>
+                <button class="__sanckbar_action retry-btn-clr" onclick="BadgeBaseClose();">Retry</button>
+                <button class="__sanckbar_action" onclick="BadgeBaseClose();">X</button>
+            </div>
+        </div>
+        <div class="__snackbar_left">
+            <h2>Hello!! have a nice day</h2>
+            <div>
+                <button class="__sanckbar_action retry-btn-clr" onclick="BadgeLeadingClose();">Retry</button>
+                <button class="__sanckbar_action" onclick="BadgeLeadingClose();">X</button>
+            </div>
+        </div>
+        <div class="__snackbar_stacked">
+            <h2>Hello!! have a nice day</h2>
+            <div class="__snack-btn-container">
+                <button class="__sanckbar_action retry-btn-clr" onclick="BadgeStackedClose();">Retry</button>
+                <button class="__sanckbar_action" onclick="BadgeStackedClose();">X</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
