@@ -22,9 +22,10 @@ html{
     color: var(--text-color);
 }
 .divider{
-    height: 6rem;
-    font-size: 2rem;   
-   
+    /* height: 6rem; */
+    font-size: 1.5rem;   
+    word-wrap: break-word;
+    display: block
 }
 .divider h1{
     margin-right: 0 auto;
