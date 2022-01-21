@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./Style/card_style.css">
     <link rel="stylesheet" href="./Style/badge_style.css">
     <link rel="stylesheet" href="./Style/snackbar_style.css">
+    <link rel="stylesheet" href="./Style/chips.css">
+    <link rel="stylesheet" href="./Style/dialog.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
@@ -21,6 +23,86 @@
 </head>
 <body>
     <div class="divider"><h1>Hi I am Tarun, Work in progress for component style</h1></div>
+
+    <div class="divider"><h1>Dialog</h1></div>
+    
+    <button class="__badge-btn" onclick="Alert();">Aler</button>
+    <button class="__badge-btn" onclick="Simple();">Simple</button>
+    <button class="__badge-btn" onclick="Confirmation()">Confirmation</button>
+    <div class="__dialog-bunch">
+        <div class="__dialog __alert-dialog">
+            <h1 class="__dailog-header">Dialog header</h1>
+            <div class="__dailog-body">
+                Dialog body text
+            </div>
+            <div class="__dailog-footer">
+                <button  onclick="Alert();">ACTION 1</button>
+                <button  onclick="Alert();">ACTION 2</button>
+            </div>
+        </div>
+
+        <div class="__dialog __dialog-simple">
+            <h1 class="__dailog-header">Dialog header</h1>
+            <div class="__dailog-body">
+                <ul>
+                    <li><span class="material-icons-round">
+                        engineering
+                        </span>
+                        
+                        <span class="__dialog-body-item">item 1</span></li>
+                    <li><span class="material-icons-round">
+                        engineering
+                        </span>
+                        
+                        <span class="__dialog-body-item">item 1</span></li>
+                    <li><span class="material-icons-round">
+                        engineering
+                        </span>
+                        
+                        <span class="__dialog-body-item">item 1</span></li>
+                </ul>
+            </div>
+            <div class="__dailog-footer">
+                <button>ACTION 1</button>
+                <button>ACTION 2</button>
+            </div>
+        </div>
+
+        <div class="__dialog">
+            <h1 class="__dailog-header">Dialog header</h1>
+            <div class="__dailog-body __confirmation-body">
+                <ul>
+                    <li><input type="radio" id="html" name="fav_language" value="HTML">
+                        <span class="__dialog-body-item">item 1</span></li>
+                    <li>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <span class="__dialog-body-item">item 1</span></li>
+                    <li><input type="radio" id="html" name="fav_language" value="HTML">
+                        <span class="__dialog-body-item">item 1</span></li>
+                    <li><input type="radio" id="html" name="fav_language" value="HTML">                        
+                        <span class="__dialog-body-item">item 1</span></li>
+                    <li><input type="radio" id="html" name="fav_language" value="HTML">
+                        <span class="__dialog-body-item">item 1</span></li>
+                    <li><input type="radio" id="html" name="fav_language" value="HTML">
+                        <span class="__dialog-body-item">item 1</span></li>
+                </ul>
+            </div>
+            <div class="__dailog-footer">
+                <button onclick="Confirmation()">ACTION 1</button>
+                <button onclick="Confirmation()">ACTION 2</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"><h1>Chips</h1></div>
+    <label class="__chips-label">
+        <div class="__chips-container"></div>
+        <form onsubmit="Chiprender()">
+            <input class="__chips-input" placeholder="Enter ">
+        </form>
+    </label>
+
+
     <div class="divider"><h1>Card</h1></div>
     <div class="card">
     <!-- Card Basic -->
@@ -61,7 +143,7 @@
                 </div>
             </div>
         </div>
-<!-- text over media -->
+    <!-- text over media -->
         <div class="__card-tom">
             <div class="__card-tom-img">
                 <img src="./assets/chad-montano-MqT0asuoIcU-unsplash.jpg" alt="Food Image" srcset=""/>
@@ -99,7 +181,7 @@
                 </div>
             </div>
         </div>
-<!-- basic with header -->
+    <!-- basic with header -->
         <div class="__card-basic">
             <div class="__card-bh-author">
                 <h1>Breakfast Story</h1>
@@ -308,6 +390,9 @@
             </div>
         </div>
     </div>
+
+    <script src="./chips.js"></script>
     <script src="./script.js"></script>
+    <script src="./dialog.js"></script>
 </body>
 </html>

@@ -97,7 +97,7 @@ html{
     justify-content: space-around;
 }
 .__card-basic-actionbar > .__card-basic-btn-bm:hover,span:hover{
-    background-color: var(--light-bg-color  );
+    background-color: var(--light-bg-color );
     border-radius: 50%;
 
     cursor: pointer;
