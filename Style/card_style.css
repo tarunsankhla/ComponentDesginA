@@ -49,7 +49,7 @@ html{
     border-radius: 0.7rem;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25);
     background-color: white;
-    margin: 1rem;
+    margin: 0.7rem;
 }
 
 .__card-basic-img img{
@@ -72,7 +72,7 @@ html{
     display: flex;
     height: 10%;
     padding:0.3rem;
-    margin: 0.5rem;
+    margin: 0.3rem;
 }
 .__card-basic-content-view{
     display: flex;
@@ -103,8 +103,9 @@ html{
 
     cursor: pointer;
 }
-.__card-basic-actionbar *{
-    padding: 0.2rem;
+.__card-basic-actionbar > div{
+    padding: 0.1rem;
+    margin: 0.1rem;
 }
 .__card-basic-content-view button:hover{
     background-color: var(--light-bg-color  );
