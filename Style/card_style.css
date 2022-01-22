@@ -25,7 +25,8 @@ html{
     /* height: 6rem; */
     font-size: 1.5rem;   
     word-wrap: break-word;
-    display: block
+    display: block;
+    padding: 1rem;
 }
 .divider h1{
     margin-right: 0 auto;

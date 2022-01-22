@@ -16,7 +16,8 @@
     color: var(--text-color);
     padding: 1rem;
     margin: 1rem;
-    width: 40%;
+    width: 60%;
+    /*  : 40%; */
     border-radius: 0.5rem;
     display: none;
 }
@@ -40,7 +41,8 @@
     color: var(--text-color);
     padding: 1rem;
     margin: 1rem;
-    width: 40%;
+    /* width: 40%; */
+    width: 60%;
     border-radius: 0.5rem;
     display: none;
 }
@@ -55,16 +57,16 @@
     color: var(--text-color);
     padding: 1rem;
     margin: 1rem;
-    width: 40%;
+    width: 60%;
     border-radius: 0.5rem;
     flex-flow: column;
     display: none;
 }
 
 .__snack-btn-container{
-    margin: 1rem 0 0 70%;
+    /* margin: 1rem 0 0 70%; */
     position: relative;
-
+    margin-left: auto;
 }
 
 .retry-btn-clr{
