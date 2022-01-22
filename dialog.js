@@ -11,7 +11,7 @@ function Alert(){
 function Simple(){
     console.log(dialog[1]);
     var simple =dialog[1];
-    simple.style.display ="flex";
+    simple.style.display ="flex";       
 }
 function  Confirmation(){
     console.log(dialog[2]);
